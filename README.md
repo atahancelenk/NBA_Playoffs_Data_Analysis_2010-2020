@@ -32,7 +32,9 @@ This project aims to identify the **Top 10 NBA Playoff performers** from 2010 to
 - Normalized metrics using **MinMaxScaler**
 - Created a composite `Score`:
   
-    ![Score Formula](https://latex.codecogs.com/svg.latex? %5Ctext%7BScore%7D%20%3D%20%5Cfrac%7B%5Ctext%7BPER%7D_%7Bnorm%7D%20%2B%20%5Ctext%7BWS%7D_%7Bnorm%7D%20%2B%20%5Ctext%7BBPM%7D_%7Bnorm%7D%20%2B%20%5Ctext%7BTS%5C%25%7D_%7Bnorm%7D%7D%7B4%7D)
+```math
+\text{Score} = \frac{\text{PER}_{norm} + \text{WS}_{norm} + \text{BPM}_{norm} + \text{TS\%}_{norm}}{4}
+```
 
 ---
 
@@ -40,7 +42,7 @@ This project aims to identify the **Top 10 NBA Playoff performers** from 2010 to
 
 | Rank | Player            | Score   |
 |------|-------------------|---------|
-| 1    | LeBron James      | 0.8887  |
+| 1    | LeBron James 🥇  | 0.8887  |
 | 2    | Nikola Jokić      | 0.7794  |
 | 3    | Kevin Durant      | 0.7325  |
 | 4    | Anthony Davis     | 0.7293  |
