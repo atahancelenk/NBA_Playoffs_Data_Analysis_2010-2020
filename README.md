@@ -32,9 +32,7 @@ This project aims to identify the **Top 10 NBA Playoff performers** from 2010 to
 - Normalized metrics using **MinMaxScaler**
 - Created a composite `Score`:
   
-  \[
-  \text{Score} = \frac{\text{PER}_{norm} + \text{WS}_{norm} + \text{BPM}_{norm} + \text{TS\%}_{norm}}{4}
-  \]
+    ![Score Formula](https://latex.codecogs.com/svg.latex? %5Ctext%7BScore%7D%20%3D%20%5Cfrac%7B%5Ctext%7BPER%7D_%7Bnorm%7D%20%2B%20%5Ctext%7BWS%7D_%7Bnorm%7D%20%2B%20%5Ctext%7BBPM%7D_%7Bnorm%7D%20%2B%20%5Ctext%7BTS%5C%25%7D_%7Bnorm%7D%7D%7B4%7D)
 
 ---
 
