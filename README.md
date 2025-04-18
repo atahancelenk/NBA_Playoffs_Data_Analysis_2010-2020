@@ -43,8 +43,8 @@ This project aims to identify the **Top 10 NBA Playoff performers** from 2010 to
 | Rank | Player            | Score   |
 |------|-------------------|---------|
 | 1    | LeBron James 🥇  | 0.8887  |
-| 2    | Nikola Jokić      | 0.7794  |
-| 3    | Kevin Durant      | 0.7325  |
+| 2    | Nikola Jokić 🥈  | 0.7794  |
+| 3    | Kevin Durant 🥉  | 0.7325  |
 | 4    | Anthony Davis     | 0.7293  |
 | 5    | Kawhi Leonard     | 0.7112  |
 | 6    | Stephen Curry     | 0.6781  |
