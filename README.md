@@ -1,12 +1,12 @@
-# 🏀 NBA Playoff Player Performance Analysis (2010–2020)
+# NBA Playoff Player Performance Analysis (2010–2020)
 
-## 🎯 Objective
+## Objective
 
 This project aims to identify the **Top 10 NBA Playoff performers** from 2010 to 2020 using advanced basketball metrics and **K-Means Clustering**. The approach is completely **data-driven**, leveraging machine learning techniques to classify and rank players based on their efficiency and impact.
 
 ---
 
-## 📂 Data Source
+## Data Source
 
 - All data manually sourced from [Basketball-Reference.com](https://www.basketball-reference.com/)
 - Downloaded **Advanced Stats** tables for each playoff season between **2010 and 2020**
@@ -14,7 +14,7 @@ This project aims to identify the **Top 10 NBA Playoff performers** from 2010 to
 
 ---
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 
 - Concatenated yearly CSV files into a single DataFrame
 - Removed duplicate headers, asterisks, and irrelevant characters
@@ -27,7 +27,7 @@ This project aims to identify the **Top 10 NBA Playoff performers** from 2010 to
 
 ---
 
-## 🧠 Feature Engineering & Scoring
+## Feature Engineering & Scoring
 
 - Normalized metrics using **MinMaxScaler**
 - Created a composite `Score`:
@@ -38,7 +38,7 @@ This project aims to identify the **Top 10 NBA Playoff performers** from 2010 to
 
 ---
 
-## 🏆 Top 10 Playoff Performers (2010–2020)
+## Top 10 Playoff Performers (2010–2020)
 
 | Rank | Player            | Score   |
 |------|-------------------|---------|
@@ -54,10 +54,11 @@ This project aims to identify the **Top 10 NBA Playoff performers** from 2010 to
 | 10   | Chris Andersen    | 0.6438  |
 
 > These scores reflect **overall decade-long playoff performance**, not single-season metrics.
+> **A Note on Nikola Jokić's Ranking:** Jokić's high ranking (2nd) is particularly noteworthy as his sample size within the 2010–2020 window is relatively smaller compared to long-time performers like LeBron James or Kevin Durant. His placement is a testament to the **extreme efficiency and immediate high-level impact** he demonstrated during his early playoff appearances covered by this dataset (pre-2021). This highlights the methodology's focus on **per-minute efficiency** rather than career longevity.
 
 ---
 
-## 🤖 Clustering Analysis
+## Clustering Analysis
 
 - Applied **K-Means (k=4)** clustering on normalized metrics
 - Player performance groups:
@@ -69,7 +70,7 @@ This project aims to identify the **Top 10 NBA Playoff performers** from 2010 to
 
 ---
 
-## 📈 Visualization
+## Visualization
 
 > PER vs WS Scatter Plot with Clustering Labels:
 
@@ -80,7 +81,7 @@ This project aims to identify the **Top 10 NBA Playoff performers** from 2010 to
 
 ---
 
-## 🛠 Tools & Libraries
+## Tools & Libraries
 
 - Python 3.x
 - `pandas`, `numpy`
